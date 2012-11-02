@@ -1,3 +1,1 @@
-" Language:  EBNF
-
-autocmd BufNewFile,BufRead *.ebnf set filetype=ebnf
+autocmd BufRead,BufNewFile *.ebnf set filetype=ebnf
