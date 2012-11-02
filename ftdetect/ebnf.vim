@@ -1,2 +1,3 @@
-" EBNF Syntax
-au! BufRead,BufNewFile *.ebnf  setfiletype ebnf
+" Language:  EBNF
+
+autocmd BufNewFile,BufRead *.ebnf set filetype=ebnf
